@@ -1,0 +1,105 @@
+@import url('index.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+#page {
+  height: 100vh;
+  background: var(--color-yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  background: var(--color-white);
+  border: 2px solid black;
+  box-shadow: 8px 8px black;
+  width: 384px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem; /* equals 16px which is the default root font size */
+}
+
+#card:hover {
+  box-shadow: 16px 16px black;
+}
+
+#image {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+#image img {
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#tag-and-date {
+  display: flex;
+  flex-direction: column;
+}
+
+#learning {
+  background: var(--color-yellow);
+  width: 20%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-sizing: content-box;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#date {
+  font-weight: 500;
+}
+
+#title-text h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* make title yellow on mouse hover */
+#title-text h3:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
+
+#title-text p {
+  color: var(--color-grey);
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#icon-image {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+#icon-image img {
+  width: 10%;
+}
+
+#icon-image p {
+  font-weight: 800;
+}
+
+/* footer */
+.attribution {
+  margin-top: 40px;
+}
