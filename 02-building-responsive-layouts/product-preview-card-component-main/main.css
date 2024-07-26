@@ -1,5 +1,49 @@
 @import url(variables.css);
 
 * {
-    font-family: var(--font-family-montserrat);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size);
+}
+
+.container {
+    background: var(--color-cream);
+    display: flex;
+}
+.card {
+    background-color: var(--color-white);
+    margin: 2rem 1rem;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.content {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+#perfume {
+    font-size: .8rem;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: var(--color-darkGreyishBlue);
+}
+
+#title {
+    font-family: var(--font-family-fraunces);
+    font-size: 2rem;
+}
+
