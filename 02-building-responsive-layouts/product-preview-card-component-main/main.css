@@ -1,1 +1,5 @@
 @import url(variables.css);
+
+* {
+    font-family: var(--font-family-montserrat);
+}
