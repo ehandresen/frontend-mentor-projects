@@ -47,3 +47,13 @@ img {
     font-size: 2rem;
 }
 
+#main-text {
+    font-weight: 400;
+    color: var(--color-darkGreyishBlue);
+    padding-right: 38px;
+}
+
+#price {
+    
+}
+
