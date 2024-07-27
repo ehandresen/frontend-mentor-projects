@@ -14,6 +14,7 @@ body {
 .container {
     background: var(--color-cream);
     display: flex;
+
 }
 .card {
     background-color: var(--color-white);
@@ -70,5 +71,23 @@ img {
     text-decoration: line-through;
     color: var(--color-darkGreyishBlue);
     font-weight: 400;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    margin-bottom: 1.5rem;
+    background-color: var(--color-darkCyan);
+    color: var(--color-cream);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#cart {
+    width: 16px;
+    margin-top: 12px;
 }
 
